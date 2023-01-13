@@ -1,0 +1,50 @@
+.header {
+  justify-content: center;
+  box-shadow: $gray29 0 3px 6px;
+  height: 70px;
+  width: 100vw;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.logo {
+  font-family: $Raleway;
+  color: $blueE4;
+  font-size: 2rem;
+  font-weight: $light;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.nav__element {
+  padding: 0 26px;
+}
+
+.nav__element:last-child {
+  padding-right: 0;
+}
+
+ul {list-style-type: none;}
+
+.nav__link {
+  color: $grayA5;
+  font-size: 0.68rem;
+  font-weight: $bold;
+  letter-spacing: 0.18px;
+  text-transform: uppercase;
+  Border-bottom: 4px solid transparent;
+  padding: 28px 18px 23px;
+  list-style-type: none;
+}
+
+.nav__link:hover {
+  color: $black;
+  border-color: $blueE4;
+}
